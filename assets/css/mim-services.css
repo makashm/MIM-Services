@@ -1,0 +1,114 @@
+#mim-services {
+  background: transparent;
+  float: left;
+  padding: 40px 0;
+}
+.mim-services-body {
+  float: left;
+  margin-bottom: 28px;
+  width: 33.33%;
+}
+.mim-services-content {
+  padding: 10px;
+}
+.mim-services-content > img {
+  border-radius: 0;
+}
+.mim-services-content img:hover{
+	opacity: .9;
+}
+.mim-services-title {
+  padding: 0 2px;
+  text-align: center;
+}
+.mim-services-content {
+  padding: 18px 12px;
+  text-align: center;
+}
+.mim-services-title > h2 {
+  color: #777;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.mim-services-content h4 {
+  font-size: 22px;
+  margin: 8px 0;
+  text-transform: uppercase;
+}
+.readmore-btn i {
+  border: 1px solid #f3ca27;
+  color: #f3ca27;
+  font-size: 30px;
+  padding: 2px 30px;
+  transition: 0.7s;
+}
+.mim-services-icon i {
+  border: 1px solid #f3ca27;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 24px;
+  color: #f3ca27;
+  transition: .7s;
+}
+.mim-services-content:hover{
+  background: #f3ca27;
+  color: #fff;
+  transition: 0.7s;
+}
+.mim-services-content:hover .mim-services-icon i{
+  color: #f3ca27;
+  background: #fff;
+  border: 1px solid #fff;
+}
+.mim-services-content:hover .mim-services-icon-style3 i{
+  color: #f3ca27;
+  background: #fff;
+  border: 1px solid #fff;
+}
+.mim-services-content:hover .readmore-btn i{
+  color: #f3ca27;
+  background: #fff;
+  border: 1px solid #fff;
+}
+.mim-services-content .mim-services-icon-style3 i {
+  border: 1px solid #f3ca27;
+  color: #f3ca27;
+  font-size: 30px;
+  padding: 24px;
+  transition: all 0.7s ease 0s;
+}
+.style4 [class*=" imghvr-"], [class^="imghvr-"] {
+  background-color: #f6f6f6;
+  color: #777;
+  margin: 5px 10px;
+}
+.style4{
+  margin-bottom: 0;
+}
+.style4:hover {
+  background: transparent;
+  color: transparent;
+}
+.style4-hover[class*=" imghvr-"] a, [class^="imghvr-"] a {
+  bottom: 10px;
+  left: auto;
+  right: calc(35%);
+  top: auto;
+}
+.style4-hover{
+  text-align: center;
+}
+.style4-hover .readmore-btn a{
+  background: #fff;
+}
+.style4 [class*=" imghvr-"] figcaption, [class^="imghvr-"] figcaption {
+  background: #f3ca27 none repeat scroll 0 0;
+}
+.mim-services-icon-style5 i {
+  border: 1px solid #f3ca27;
+  border-radius: 0;
+  color: #f3ca27;
+  font-size: 30px;
+  padding: 20px;
+  transition: all 0.7s ease 0s;
+}
